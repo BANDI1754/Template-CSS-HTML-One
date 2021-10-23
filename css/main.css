@@ -1,0 +1,199 @@
+:root {
+    --main-font: "Fira Code", monospace;
+    --maintxt-color: white;
+    --mainfont-size: 18px;
+  }
+  
+  .back-filtre {
+    background-color: rgba(34, 35, 68, 70%);
+  }
+  /* @media(max-width: 760px) {
+    label {
+      font-size: 14px;
+    }
+  } */
+  body {
+    margin: 0px;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: -5;
+  }
+  main .container {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(34, 35, 68, 85%);
+    border-radius: 5px;
+    z-index: 5;
+    padding-bottom: 60px;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .container {
+    text-align: center;
+  }
+  header p {
+    margin-top: -9px;
+    font-family: var(--main-font);
+    word-spacing: -2px;
+    color: var(--maintxt-color);
+    font-style: italic;
+    font-weight: 100;
+  }
+  header h1 {
+    font-family: var(--main-font);
+    word-spacing: -2px;
+    color: var(--maintxt-color);
+    font-weight: 400;
+    word-spacing: -13px;
+  }
+  
+  main .container .info {
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: space-around;
+  }
+  
+  main .container .info input {
+    height: 35px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  main .container .info label {
+    color: var(--maintxt-color);
+    font-family: var(--main-font);
+    margin-bottom: 10px;
+    font-size: var(--mainfont-size);
+    font-weight: 400;
+  }
+  main .container .info label span {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  main .container .role-select {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  main .container .role-select select {
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  main .container .role-select label {
+    color: var(--maintxt-color);
+    font-family: var(--main-font);
+    margin-bottom: 10px;
+    font-size: var(--mainfont-size);
+  }
+  main .container .radio {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  main .container .radio label {
+    color: var(--maintxt-color);
+    font-size: var(--mainfont-size);
+    font-family: var(--main-font);
+    margin-bottom: 10px;
+  }
+  main .container .radio .child-radio {
+    display: flex;
+  }
+  main .container .radio input {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  main .container .opt-select {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .container .opt-select select {
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  main .container .opt-select label {
+    font-size: var(--mainfont-size);
+    font-family: var(--main-font);
+    color: var(--maintxt-color);
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+  main .container .check-box {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+  }
+  main .container .check-box .check-child {
+    display: flex;
+  }
+  main .container .check-box label {
+    font-size: var(--mainfont-size);
+    font-family: var(--main-font);
+    color: var(--maintxt-color);
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  main .container .check-box .check-child label {
+    color: var(--maintxt-color);
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  main .container .check-box .check-child input {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  main .container .text-area {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .container textarea {
+    height: 100px;
+  }
+  main .container .text-area label {
+    font-family: var(--main-font);
+    font-size: var(--mainfont-size);
+    color: var(--maintxt-color);
+    margin-bottom: 10px;
+  }
+  main .container .submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+  }
+  main .container .submit input {
+    height: 40px;
+    background-color: #37af65;
+    border-radius: 2px;
+    border-style: none;
+    color: var(--maintxt-color);
+    font-size: var(--mainfont-size);
+    font-weight: 600px;
+    cursor: pointer;
+  }
+  
